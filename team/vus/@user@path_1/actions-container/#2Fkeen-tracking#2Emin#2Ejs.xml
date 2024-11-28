@@ -1,0 +1,46 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/keen-tracking.min.js" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/c39942a9-ec1f-471f-bc3a-f9750bf13897.zip"
+    slaProfileEnabled="false" thinkTime="1717"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c39942a9-ec1f-471f-bc3a-f9750bf13897">
+    <embedded-action>fc94142a-a757-4350-9edd-067c9e8b5b64</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_c39942a9-ec1f-471f-bc3a-f9750bf13897.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/vnd.microsoft.icon"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/c39942a9-ec1f-471f-bc3a-f9750bf13897.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="www.blazedemo.com" slaProfileEnabled="false"
+    uid="fc94142a-a757-4350-9edd-067c9e8b5b64" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fc94142a-a757-4350-9edd-067c9e8b5b64</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fc94142a-a757-4350-9edd-067c9e8b5b64.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://www.blazedemo.com/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;131&quot;, &quot;Chromium&quot;;v=&quot;131&quot;, &quot;Not_A Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="keen={%22uuid%22:%22fafd0c7b-aa81-4a60-9746-3e7a4d63a8a9%22%2C%22initialReferrer%22:%22https://www.google.com/%22}"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+last-modified: Tue, 30 Aug 2022 14:26:12 GMT&#xd;
+etag: "0-5e77629808900"&#xd;
+accept-ranges: bytes&#xd;
+content-type: image/vnd.microsoft.icon&#xd;
+x-cloud-trace-context: c8d6dc1cbbf62aa4997452dad91899c4&#xd;
+date: Mon, 25 Nov 2024 06:20:24 GMT&#xd;
+server: Google Frontend&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

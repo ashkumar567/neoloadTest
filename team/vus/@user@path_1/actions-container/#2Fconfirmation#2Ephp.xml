@@ -1,0 +1,79 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/confirmation.php"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/978402f0-a16d-4fe8-9be8-cdcfeee74093.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="978402f0-a16d-4fe8-9be8-cdcfeee74093">
+    <embedded-action>193a1bc5-dd9d-489c-a638-2dc926004928</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_978402f0-a16d-4fe8-9be8-cdcfeee74093.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/confirmation.php" path="/confirmation.php"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/978402f0-a16d-4fe8-9be8-cdcfeee74093.zip"
+    recordedResponseCode="200"
+    refererUid="96351d04-e745-4dc0-81c5-8587773122e4"
+    responseSize="5497" serverUid="www.blazedemo.com"
+    slaProfileEnabled="false" uid="193a1bc5-dd9d-489c-a638-2dc926004928" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[X3Rva2VuPSZpbnB1dE5hbWU9JmFkZHJlc3M9JmNpdHk9JnN0YXRlPSZ6aXBDb2RlPSZjYXJkVHlwZT12aXNhJmNyZWRpdENhcmROdW1iZXI9JmNyZWRpdENhcmRNb250aD0xMSZjcmVkaXRDYXJkWWVhcj0yMDE3Jm5hbWVPbkNhcmQ9]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_193a1bc5-dd9d-489c-a638-2dc926004928.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_193a1bc5-dd9d-489c-a638-2dc926004928.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="_token"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="inputName"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="address"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="city"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="state"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="zipCode"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cardType"
+        recordRawValue="visa" separator="=" value="visa" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="creditCardNumber" recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="creditCardMonth" recordRawValue="11" separator="="
+        value="11" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="creditCardYear" recordRawValue="2017" separator="="
+        value="2017" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nameOnCard"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://www.blazedemo.com/purchase.php"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="keen={%22uuid%22:%22fafd0c7b-aa81-4a60-9746-3e7a4d63a8a9%22%2C%22initialReferrer%22:%22https://www.google.com/%22}; prodperfect_session={%22session_uuid%22:%225900f5a9-6d03-4226-aaab-6cf65e81e7a9%22}"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://www.blazedemo.com"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;131&quot;, &quot;Chromium&quot;;v=&quot;131&quot;, &quot;Not_A Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+x-powered-by: PHP/7.4.30&#xd;
+cache-control: no-cache, private&#xd;
+vary: Accept-Encoding&#xd;
+content-type: text/html; charset=UTF-8&#xd;
+content-encoding: gzip&#xd;
+x-cloud-trace-context: 9a63472c722d1037b215a63bcc97f2ed&#xd;
+date: Mon, 25 Nov 2024 06:20:34 GMT&#xd;
+server: Google Frontend&#xd;
+content-length: 1924</responseHeaders>
+    <record-html-infos extractorOccurence="1" extractorRegExp="false" htmlType="2"/>
+</http-action>

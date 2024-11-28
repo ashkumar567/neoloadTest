@@ -1,0 +1,63 @@
+<me-host browserBasedSupport="false" citrixSupport="false"
+    loadWeight="1" sapSupport="false" standalone="false"
+    supportWANEmulation="false" uid="localhost" version="2024.3.0;build=20241031-38">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface
+        description="Qualcomm QCA61x4A 802.11ac Wireless Adapter"
+        enabled="false" isLoopBack="false" name="wlan1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="host.docker.internal">
+            <ip value="192.168.31.205"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2409:40c2:11a0:193e:63e4:3959:50b7:7949">
+            <ip value="2409:40c2:11a0:193e:63e4:3959:50b7:7949"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2409:40c2:11a0:193e:bdb0:75c1:9eed:4b20">
+            <ip value="2409:40c2:11a0:193e:bdb0:75c1:9eed:4b20"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:2dfb:2da8:939f:c705%wlan1">
+            <ip value="fe80:0:0:0:2dfb:2da8:939f:c705%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:e37f:9412:7f2b:d357%eth4">
+            <ip value="fe80:0:0:0:e37f:9412:7f2b:d357%eth4"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) Ethernet Connection (4) I219-LM"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:b0b6:ce9:8d6a:52%eth3">
+            <ip value="fe80:0:0:0:b0b6:ce9:8d6a:52%eth3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter"
+        enabled="false" isLoopBack="false" name="eth24">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="desktop-hu4slcr.mshome.net">
+            <ip value="172.18.64.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:cf0e:f32d:a841:1270%eth24">
+            <ip value="fe80:0:0:0:cf0e:f32d:a841:1270%eth24"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>
